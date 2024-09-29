@@ -6,7 +6,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoMdMic } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
 import { AiOutlineBell } from "react-icons/ai";
-import logo from "/youtube.png";
+import youtube from "/youtube.jpg";
 import profile from "/profile.jpg";
 import { useNavigate } from "react-router-dom";
 import { useUtils } from "../context/UtilsContext";
@@ -76,7 +76,7 @@ function Navbar() {
           className="text-xl cursor-pointer"
           onClick={handleSidebar}
         />
-        <img src={logo} alt="" className="w-28 cursor-pointer" />
+        <img src={youtube} alt="" className="w-28 cursor-pointer" />
       </div>
       <div className=" hidden md:flex w-[35%] items-center ">
         <div className="w-[100%] px-4 py-2 border-[1px] border-gray-400 rounded-l-full">
